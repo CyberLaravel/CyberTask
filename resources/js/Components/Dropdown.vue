@@ -69,12 +69,12 @@ const alignmentClasses = computed(() => {
         >
             <div
                 v-show="open"
-                class="absolute z-50 mt-2 rounded-md shadow-neon bg-gray-800 border border-yellow-400"
+                class="absolute z-50 mt-2 rounded shadow-neon bg-gray-800 border border-yellow-400 overflow-hidden"
                 :class="[widthClass, alignmentClasses]"
                 style="display: none"
                 @click="open = false"
             >
-                <div class="rounded-md">
+                <div>
                     <slot name="content" />
                 </div>
             </div>

@@ -79,10 +79,10 @@ const logout = () => {
                                     width="60"
                                 >
                                     <template #trigger>
-                                        <span class="inline-flex rounded-md">
+                                        <span class="inline-flex">
                                             <button
                                                 type="button"
-                                                class="inline-flex items-center px-3 py-2 border border-yellow-400 text-sm leading-4 font-medium rounded-md text-blue-300 hover:text-yellow-400 transition-colors duration-200"
+                                                class="inline-flex items-center px-3 py-2 border border-yellow-400 text-sm leading-4 font-medium rounded text-blue-300 hover:text-yellow-400 transition-colors duration-200"
                                             >
                                                 {{
                                                     $page.props.auth.user
@@ -214,32 +214,10 @@ const logout = () => {
                             <div class="ms-3 relative">
                                 <Dropdown align="right" width="48">
                                     <template #trigger>
-                                        <button
-                                            v-if="
-                                                $page.props.jetstream
-                                                    .managesProfilePhotos
-                                            "
-                                            class="flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-gray-300 transition"
-                                        >
-                                            <img
-                                                class="size-8 rounded-full object-cover"
-                                                :src="
-                                                    $page.props.auth.user
-                                                        .profile_photo_url
-                                                "
-                                                :alt="
-                                                    $page.props.auth.user.name
-                                                "
-                                            />
-                                        </button>
-
-                                        <span
-                                            v-else
-                                            class="inline-flex rounded-md"
-                                        >
+                                        <span class="inline-flex">
                                             <button
                                                 type="button"
-                                                class="inline-flex items-center px-3 py-2 border border-yellow-400 text-sm leading-4 font-medium rounded-md text-blue-300 hover:text-yellow-400 transition-colors duration-200"
+                                                class="inline-flex items-center px-3 py-2 border border-yellow-400 text-sm leading-4 font-medium rounded text-blue-300 hover:text-yellow-400 transition-colors duration-200"
                                             >
                                                 {{ $page.props.auth.user.name }}
 
