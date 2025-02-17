@@ -66,12 +66,12 @@ const alignmentClasses = computed(() => {
             leave-active-class="transition ease-in duration-75"
             leave-from-class="opacity-100 scale-100"
             leave-to-class="opacity-0 scale-95"
+            :show="open"
         >
             <div
                 v-show="open"
                 class="absolute z-50 mt-2 rounded shadow-neon bg-gray-800 border border-yellow-400 overflow-hidden"
                 :class="[widthClass, alignmentClasses]"
-                style="display: none"
                 @click="open = false"
             >
                 <div>

@@ -26,7 +26,7 @@ const closeModal = () => {
 </script>
 
 <template>
-    <TransitionRoot appear :show="isOpen" as="template">
+    <TransitionRoot appear :show="isOpen" as="div">
         <Dialog as="div" @close="closeModal" class="relative z-50">
             <TransitionChild
                 as="template"
