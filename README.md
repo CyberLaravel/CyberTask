@@ -1,24 +1,26 @@
+> ⚠️ **Development Status**: This project is currently under active development and is not ready for production use. Features may be incomplete or subject to change.
+
 # GlitchTask 🌟
 
 A cyberpunk-themed task management application built with Laravel, Vue.js, and Inertia.js, featuring a neon-glowing UI, real-time updates, and team collaboration tools.
 
 ## ✨ Features
 
-- 🎯 Task Management with Dependencies
-- 👥 Team Collaboration
-- 📊 Real-time Dashboard
-- 🔄 Kanban Board View
-- 💬 Comments & Activity Tracking
-- �� File Attachments
-- 🌈 Cyberpunk UI with Neon Effects
+-   🎯 Task Management with Dependencies
+-   👥 Team Collaboration
+-   📊 Real-time Dashboard
+-   🔄 Kanban Board View
+-   💬 Comments & Activity Tracking
+-   �� File Attachments
+-   🌈 Cyberpunk UI with Neon Effects
 
 ## 🚀 Tech Stack
 
-- **Frontend:** Vue 3, Tailwind CSS
-- **Backend:** Laravel 10
-- **State Management:** Inertia.js
-- **Authentication:** Laravel Jetstream
-- **Database:** MySQL
+-   **Frontend:** Vue 3, Tailwind CSS
+-   **Backend:** Laravel 10
+-   **State Management:** Inertia.js
+-   **Authentication:** Laravel Jetstream
+-   **Database:** MySQL
 
 ## 🛠️ Installation
 
@@ -52,10 +54,11 @@ Password: password
 ## 🎨 Theme
 
 The application features a custom cyberpunk theme with:
-- Neon accents and glowing effects
-- Dark futuristic interface
-- Glitch animations
-- Responsive design
+
+-   Neon accents and glowing effects
+-   Dark futuristic interface
+-   Glitch animations
+-   Responsive design
 
 ## 📝 License
 
@@ -63,10 +66,10 @@ This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgments
 
-- [Laravel](https://laravel.com)
-- [Vue.js](https://vuejs.org)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Heroicons](https://heroicons.com)
+-   [Laravel](https://laravel.com)
+-   [Vue.js](https://vuejs.org)
+-   [Tailwind CSS](https://tailwindcss.com)
+-   [Heroicons](https://heroicons.com)
 
 ---
 
